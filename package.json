@@ -1,0 +1,17 @@
+{
+  "name": "gita-wisdom",
+  "version": "1.0.0",
+  "description": "Ancient wisdom for modern life",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "groq-sdk": "^0.37.0"
+  }
+}
